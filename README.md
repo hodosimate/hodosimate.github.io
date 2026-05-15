@@ -19,14 +19,16 @@ A kódbázis moduláris felépítésű, a főbb funkcionalitásokat az alábbi f
 A kutatás eredményeinek reprodukálásához az alábbi lépések szükségesek:
 
 1. **A kód és az adatok letöltése:**
-   Látogasson el a [hodosimate.github.io](https://hodosimate.github.io) weboldalra, és töltse le a teljes kódbázist, valamint a kiindulási adatokat tartalmazó tömörített (.zip) fájlt.
+    Látogasson el a [hodosimate.github.io](https://hodosimate.github.io) weboldalra, és töltse le a teljes kódbázist, valamint a kiindulási adatokat tartalmazó tömörített (.zip) fájlt.
    
-   Miután letöltötte, csomagolja ki a fájlt egy tetszőleges mappába a számítógépén, majd nyissa meg ezt a mappát a parancssorban (terminálban):
-   ```bash
-   ```cd a-kicsomagolt-mappa-pontos-utvonala
+    Miután letöltötte, csomagolja ki a fájlt egy tetszőleges mappába a számítógépén, majd nyissa meg ezt a mappát a parancssorban (terminálban):
+    
+```bash```
+
+```cd a-kicsomagolt-mappa-pontos-utvonala```
 
 2. **Szükséges csomagok telepítése:**
-    ```pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 3. **Fontos megjegyzés a futtatási időről:**
     A modell a szubadditivitás empirikus igazolása és a farokeloszlás-régiók mintavételi zajának kiküszöbölése érdekében 100 000 iterációs Monte Carlo szimulációt hajt végre. Ez a robusztus beállítás jelentős számítási kapacitást igényel.
@@ -36,7 +38,7 @@ A kutatás eredményeinek reprodukálásához az alábbi lépések szükségesek
     (Tipp: Amennyiben csak a kód működését vagy az adatok betöltését szeretné tesztelni, a master_file.py fájlban az iterációszám paramétere a futtatás előtt manuálisan csökkenthető.)
 
 4. **A szimuláció elindítása:**
-    ```python master_file.py
+```python master_file.py```
 
 5. **Várt eredmények:**
     A szkript sikeres lefutása után a konzolon megjelennek a portfóliószintű diverzifikált és diverzifikálatlan VaR mutatók, valamint a capital_comparison.py legenerálja és elmenti a dolgozat Diszkusszió fejezetében is szereplő végső összehasonlító diagramot.
