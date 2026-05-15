@@ -24,14 +24,13 @@ A kutatás eredményeinek reprodukálásához az alábbi lépések szükségesek
     Miután letöltötte, csomagolja ki a fájlt egy tetszőleges mappába a számítógépén, majd nyissa meg ezt a mappát a parancssorban (terminálban):
 
 ```bash
-```
-
-```cd a-kicsomagolt-mappa-pontos-utvonala
+cd a-kicsomagolt-mappa-pontos-utvonala
 ```
 
 2. **Szükséges csomagok telepítése:**
 
-```pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
 ```
 
 3. **Fontos megjegyzés a futtatási időről:**
@@ -42,7 +41,8 @@ A kutatás eredményeinek reprodukálásához az alábbi lépések szükségesek
     (Tipp: Amennyiben csak a kód működését vagy az adatok betöltését szeretné tesztelni, a master_file.py fájlban az iterációszám paramétere a futtatás előtt manuálisan csökkenthető.)
 
 4. **A szimuláció elindítása:**
-```python master_file.py
+```bash
+python master_file.py
 ```
 
 5. **Várt eredmények:**
