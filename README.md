@@ -19,13 +19,12 @@ A kódbázis moduláris felépítésű, a főbb funkcionalitásokat az alábbi f
 A kutatás eredményeinek reprodukálásához az alábbi lépések szükségesek:
 
 1. **A kód és az adatok letöltése:**
-    Látogasson el a [hodosimate.github.io](https://hodosimate.github.io) weboldalra, és töltse le a teljes kódbázist, valamint a kiindulási adatokat tartalmazó tömörített (.zip) fájlt.
+   Látogasson el a [hodosimate.github.io](https://hodosimate.github.io) weboldalra, és töltse le a teljes kódbázist, valamint a kiindulási adatokat tartalmazó tömörített (.zip) fájlt.
    
-    Miután letöltötte, csomagolja ki a fájlt egy tetszőleges mappába a számítógépén, majd nyissa meg ezt a mappát a parancssorban (terminálban):
-    
-```bash```
+   Miután letöltötte, csomagolja ki a fájlt egy tetszőleges mappába a számítógépén, majd nyissa meg ezt a mappát a parancssorban (terminálban):
 
-```cd a-kicsomagolt-mappa-pontos-utvonala```
+```bash
+cd a-kicsomagolt-mappa-pontos-utvonala
 
 2. **Szükséges csomagok telepítése:**
 ```pip install -r requirements.txt```
